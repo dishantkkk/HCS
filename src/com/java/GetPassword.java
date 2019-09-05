@@ -64,8 +64,8 @@ public class GetPassword extends HttpServlet {
                 response.sendRedirect("ForgotPassword.jsp");
             } else {
                 String pwd = rs.getString("Pass");
-                final String username = "vantikaagarwal13@gmail.com";//your email
-                final String password = "VANTIKA97";//your password
+                final String username = "dishantkushwaha71@gmail.com";//your email
+                final String password = "Dishant@1234";//your password
                 Properties props = new Properties();
                 props.put("mail.smtp.host", serverHostName);
 				/*
